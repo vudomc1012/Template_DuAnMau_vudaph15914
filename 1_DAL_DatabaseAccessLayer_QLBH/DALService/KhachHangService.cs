@@ -32,7 +32,7 @@ namespace _1_DAL_DatabaseAccessLayer_QLBH.DALService
 
             return "Sửa thành công";
         }
-
+        //hihi
         public string remoteKH(KhachHang khachHang)
         {
             _dbContext.KhachHangs.Update(khachHang);
