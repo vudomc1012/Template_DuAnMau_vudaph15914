@@ -45,7 +45,7 @@ namespace _1_DAL_DatabaseAccessLayer_QLBH.DALService
             _dbContext.SaveChanges();
             return "Lưu thành công";
         }
-
+        
         public List<KhachHang> GetLstKHformDB()
         {
             return _getLstKhachHangs = _dbContext.KhachHangs.ToList();
